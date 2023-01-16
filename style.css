@@ -1,0 +1,25 @@
+.container {
+  background-color: red;
+}
+
+h1 {
+  background-image: linear-gradient(to bottom, rebeccapurple, red, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ul.minha-lista {
+  list-style-type: decimal;
+  background-color: aqua;
+  background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ul.minha-lista li {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

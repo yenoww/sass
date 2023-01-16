@@ -1,0 +1,30 @@
+$vermelho: red;
+$roxo:purple;
+
+.container{
+    background-color: $vermelho;
+}
+h1{
+    background-image: linear-gradient(to bottom, rebeccapurple, $vermelho, $roxo);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+
+ul.minha-lista{
+    list-style-type:decimal;
+    background-color: aqua;
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    li{
+        margin: 0;
+        padding: 0;
+        
+
+    }
+}
+
+
